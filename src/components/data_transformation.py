@@ -23,9 +23,7 @@ class DataTransformation:
     def __init__(self):
         self.data_transformation_config = DataTransformationConfig()
 
-    def get_data_transformer_object(self):
-
-            
+    def get_data_transformer_object(self): 
         try:
             numerical_columns = ['writing_score', 'reading_score']
             categorical_columns = ['gender', 'race_ethnicity', 'parental_level_of_education',
